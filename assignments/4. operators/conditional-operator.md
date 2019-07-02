@@ -15,17 +15,52 @@ var firstName = 'John';
 var status = 'single';
 // Your code goes here
 ```
+    var firstName = 'John';
+    var status = 'single';
+
+    if (status = 'single') {
+    console.log(firstName + ' is single')
+    } else {
+    console.log(firstName + ' is married')
+    }
+
 
 3. 🎖Write a JavaScript program that takes two `integers` from user (using prompt) and alerts the larger number.
 ```js
 // your code goes here
 ```
+    let numb1, numb2;
+    numb1 = prompt("Give an integer");
+    numb2 = prompt('Give another integer');
+
+    if (Number(numb1) > Number(numb2)) {
+      alert(numb1);
+    } else {
+      alert(numb2);
+    }
+
+
 
 4. 🎖Write a JavaScript conditional statement to find the sign (+, -) of product of three numbers. Take those three numbers from user using `prompt`. Display an alert box with the specified sign.
 
 ```js
 // Your code goes here
 ```
+
+    let numb1, numb2;
+    numb1 = prompt("Give an integer");
+    numb2 = prompt('Give another integer');
+    numb3 = prompt('You can give a negative number too');
+
+    let result = (Number(numb1) * Number(numb2) * Number(numb3));
+
+    if (result > 0) {
+      alert('+ Its a positive!');
+    } else if (result < 0) {
+      alert('- Its negative');
+    } else {
+      alert('so, its a zero');
+    }
 
 ## Switch Statement
 
