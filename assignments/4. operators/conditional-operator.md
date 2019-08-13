@@ -9,6 +9,36 @@ _ [ ] Add
 _ [ ] Sub
 _ [ ] Mul \* [ ] Div
 
+```js
+var num1 = Number(prompt("Give a number"));
+var num2 = Number(prompt("Give a smaller number"));
+var operation = prompt("Divide (/) or multiply (*) or Add (+)");
+
+if (num1 < num2){
+  alert("Umm.. was your second number bigger than the first one? Try again.")
+} else if (operation == "+"){
+  alert(num1 + num2)
+} else if (operation == "*"){
+  alert(num1 * num2)
+} else if (operation == "-"){
+  alert(num1 - num2)
+} else if (operation == "/"){
+  alert(num1 / num2)
+} else {
+  alert("I didn't quite get that. Type any one of these + - / * ")
+}
+
+
+//Ternary
+
+var num1 = Number(prompt("Give a number"));
+var num2 = Number(prompt("Give a smaller number"));
+var operation = prompt("Divide (/) or multiply (*) or Add (+)");
+
+let calc = (num1 < num2) ? "Umm.. was your second number bigger than the first one? Try again." : (operation == "+") ?   (num1 + num2) : (operation == "-") ? (num1 - num2) : (operation == "*") ? (num1 * num2) : (operation == "/") ? (num1 / num2) : "I didn't quite get that. Type any one of these + - / * "; 
+alert(calc)
+
+```
 2. 🎖Write a if else statement which checks if the status is single `console.log` the message `John is single` or else `John is married`
 
 ```js
@@ -20,7 +50,7 @@ var status = "single";
     var firstName = 'John';
     var status = 'single';
 
-    if (status = 'single') {
+    if (status == 'single') {
     console.log(firstName + ' is single')
     } else {
     console.log(firstName + ' is married')
@@ -58,7 +88,7 @@ if (result > 0) {
 } else if (result < 0) {
   alert("- Its negative");
 } else {
-  alert("so, its a zero");
+  alert("so, you had to put in a zero -_- ");
 }
 ```
 

@@ -10,7 +10,7 @@ true === true; //true
 
 77 == "77"; //true
 
-77 === "77"; //true
+77 === "77"; //False
 
 "cat" === "dog"; //false
 
