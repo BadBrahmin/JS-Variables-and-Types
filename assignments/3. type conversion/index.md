@@ -1,8 +1,8 @@
 1. 🎖 What's the outpit of the code below
 ```js
 typeof "Joe"; //"string"
-typeof 4; //number
-typeof NaN; //number 
+typeof 4; //"number"
+typeof NaN; //"number" 
 typeof false; //boolean
 typeof function () {}; //function
 var phone = 8983700; //number 
