@@ -1,6 +1,8 @@
 // Challenge 1.
 // Log message in console saying "I'm Learning Javascript"
 
+console.log("I'm Learning Javascript");
+
 // Challenge 2.
 // Declare two variables: admin and name.
 // Assign the value "John" to name.
